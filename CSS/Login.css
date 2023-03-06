@@ -20,7 +20,7 @@ nav{
     border: 2px solid #000000;
     border-radius: 5px;
 }
-body{
+body#Login {
     background: url(../Images/joey-banks-YApiWyp0lqo-unsplash.jpg)  no-repeat center center fixed;
     background-size: cover;
     font-family: helvetica;
@@ -102,4 +102,77 @@ div.LogInButtonContainer button{
     background: gray;
     border: none;
     color:white
+}
+
+body#Home{
+    font-family: helvetica;
+}
+div.header{
+    width: 100%;
+    height: 20px;
+}
+
+div.banner{
+    background: url(../Images/ivana-cajina-WPVtT0MEM00-unsplash.jpg)  no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.homepagecontainer{
+    width: 100%;
+    max-width: 900px;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+div.bannerheader h1{
+    font-size: 100px;
+    color: black;
+    line-height: 100%;
+}
+
+div.bannerheader p{
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: -10px;
+    line-height: 100%;
+
+}
+p.bannertagline{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+div.homepagefeatures{
+    display: flex;
+    flex-direction: row;
+}
+
+div.homepagefeature{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div.homepagefeature span.featureIcon{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    font-size: 50px;
+    background: gray;
+    color: black;
+    padding-top: 25px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+div.homepagefeature h3.featureicon{
+    margin-bottom:20px ;
+}
+
+div.homepagefeature p.featuredescription{
+    color: gray;
+
 }

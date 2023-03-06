@@ -1,0 +1,69 @@
+nav ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+
+nav ul li  a {display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+nav ul li {display: inline-block;
+    width: 100px;}
+
+body{
+    background: url(../Images/joey-banks-YApiWyp0lqo-unsplash.jpg)  no-repeat center center fixed;
+    background-size: cover;
+}
+
+div.LogInHeader{
+    text-align: center;
+}
+
+.div.LogInHeader{
+    margin-bottom: 50px;
+}
+
+div.LogInHeader h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.LogInHeader p{
+    font-size: 50px;
+    color: rgba(0, 255, 255, 0.555);
+    margin: 0px;
+}
+
+div.LogInHeader p::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: aqua;
+    width: 40%;
+    margin: 0 auto;
+}
+
+div.LogInBody form{
+    margin: 0 auto;
+    width: 500px;
+    background:rgba(0, 0, 0, 0.5);
+    padding:50px
+}
+
+div.LogInInputContainer{
+    margin-top: 20px;
+}
+
+div.LogInInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

@@ -12,3 +12,6 @@ nav ul li  a {display: block;
 
 nav ul li {display: inline-block;
     width: 100px;}
+body{
+   background-color: blue;
+}

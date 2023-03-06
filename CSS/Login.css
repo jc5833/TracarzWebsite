@@ -10,50 +10,61 @@ nav ul li  a {display: block;
     padding: 14px 16px;
     text-decoration: none;}
 
-nav ul li {display: inline-block;
-    width: 100px;}
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    
+}
 
+nav{
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
 body{
     background: url(../Images/joey-banks-YApiWyp0lqo-unsplash.jpg)  no-repeat center center fixed;
     background-size: cover;
+    font-family: helvetica;
 }
 
 div.LogInHeader{
     text-align: center;
+    margin-bottom: 150px;
 }
 
-.div.LogInHeader{
-    margin-bottom: 50px;
-}
 
 div.LogInHeader h1{
     font-size: 100px;
     font-weight: bold;
-    color: aqua;
+    color: black;
     padding: 0px;
     margin: 0px;
+    text-transform: uppercase;
 }
 
 div.LogInHeader p{
     font-size: 50px;
-    color: rgba(0, 255, 255, 0.555);
+    color: rgba(0, 0, 0);
     margin: 0px;
+    text-transform: uppercase;
+    display: inline-block;
+
 }
 
 div.LogInHeader p::after{
     content: '';
     display: block;
     height: 5px;
-    background: aqua;
-    width: 40%;
+    background: black;
     margin: 0 auto;
 }
 
 div.LogInBody form{
     margin: 0 auto;
-    width: 500px;
+    width: 450px;
+    border: 2px solid #fff;
     background:rgba(0, 0, 0, 0.5);
-    padding:50px
+    padding:50px;
+    border-radius:8px ;
 }
 
 div.LogInInputContainer{
@@ -66,4 +77,29 @@ div.LogInInputContainer label{
     font-size: 20px;
     font-weight: bold;
     color: white;
+}
+
+div.LogInInputContainer input{
+    height: 25px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+div.LogInButtonContainer{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+div.LogInButtonContainer button{
+    font-size: 30px;
+    padding: 10px 40px;
+    background: gray;
+    border: none;
+    color:white
 }

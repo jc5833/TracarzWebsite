@@ -151,6 +151,7 @@ p.bannertagline{
 }
 
 div.homepagefeatures{
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
 }

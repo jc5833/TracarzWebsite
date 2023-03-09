@@ -1,3 +1,4 @@
+/* Navigation bar*/
 nav ul {list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,8 +21,10 @@ nav{
     border: 2px solid #000000;
     border-radius: 5px;
 }
+/*Log in Page*/
 body#Login {
-    background: url(../Images/joey-banks-YApiWyp0lqo-unsplash.jpg)  no-repeat center center fixed;
+    background: url(../Images/joey-banks-YApiWyp0lqo-unsplash.jpg)  no-repeat fixed;
+    background-position: center;
     background-size: cover;
     font-family: helvetica;
 }
@@ -103,9 +106,10 @@ div.LogInButtonContainer button{
     border: none;
     color:white
 }
-
+/*Homepage*/
 body#Home{
     font-family: helvetica;
+    background-color: white;
 }
 div.header{
     width: 100%;
@@ -175,4 +179,109 @@ div.homepagefeature h3.featureicon{
 div.homepagefeature p.featuredescription{
     color: gray;
 
+}
+/*Dashboard*/
+body#Dashboard{
+    margin: 0;
+    padding: 0;
+}
+#Dashboard_Main_Container{
+    display: flex;
+    flex-direction: row;
+}
+
+div.dashboard_sidebar{
+    width: 20%;
+    background: black;
+    height: 100vh;
+}
+
+div.dashboard_content_container{
+    width: 80%;
+    background: white;
+}
+
+h3.dashboard_logo{
+    color: gray;
+    font-size: 80px;
+    text-align: center;
+}
+
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+div.dashboard_sidebar_user img{
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+div.dashboard_sidebar_user span{
+    top: 20%;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+ul.dashboard_lists {
+    margin-top: 20px;
+    list-style-type: none;
+}
+ul.dashboard_lists li{
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+
+ul.dashboard_lists li a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+}
+ul.dashboard_lists li a i{
+    font-size: 25px;
+}
+
+ul.dashboard_lists li.menuactive{
+    background-color: gray;
+    color: white
+}
+
+ul.dashboard_lists li:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.3 all;
+}
+
+div.dashboard-content_topnav{
+    background: gray;
+    padding: 20px;
+}
+
+div.dashboard-content_topnav a{
+    color: black;;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+a#LogOutButton{
+    float: right;
+}
+
+div.dashboard_content{
+    padding: 50px 10px 10px 10px;
+}
+
+div.dashboard_content_main{
+    background:silver;
+    min-height: 800px;
+    height: 100%;
 }

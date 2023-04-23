@@ -1,3 +1,11 @@
+<?php
+    if ($_POST){
+        $username =$_POST['username'];
+        $password = $_POST['password'];
+
+        include('PHP/Connection.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +16,10 @@
     <link rel="stylesheet" href="CSS/Login.css">
     <nav>
         <ul>
-            <li><a href="Home.html"> Home </a></li>
-            <li><a href="Login.html">Log In</a></li>
-            <li><a href="Aboutus.html"> About Us </a></li>
-            <li><a href="Contact.html"> Contact </a></li>
+            <li><a href="Home.php"> Home </a></li>
+            <li><a href="Login.php">Log In</a></li>
+            <li><a href="Aboutus.php"> About Us </a></li>
+            <li><a href="Contact.php"> Contact </a></li>
         </ul>
     </nav>
 </head>
@@ -22,17 +30,17 @@
             <p>Vehicle inventory system</p>
         </div>
         <div class="LogInBody">
-           <form action="">
+           <form action="Login.php" method="POST">
             <div class="LogInInputContainer">
                 <label for="U">Username</label>
-                <input placeholder="Username" type="text"/>
+                <input placeholder="Username" name="username" type="text"/>
             </div>
             <div class="LogInInputContainer">
                 <label for="">Password</label>
-                <input placeholder="Password" type="password"/>
+                <input placeholder="Password" name="password" type="password"/>
             </div>
             <div class="LogInButtonContainer">
-                    <button onclick="onlclickfnc">Log In</button>
+                <button>Login</button>
             </div>
            </form> 
         </div>

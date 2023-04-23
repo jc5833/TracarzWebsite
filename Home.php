@@ -9,10 +9,10 @@
     <script src="https://kit.fontawesome.com/805c332ffe.js" crossorigin="anonymous"></script>
     <nav>
         <ul>
-            <li><a href="Home.html"> Home </a></li>
-            <li><a href="Login.html">Log In</a></li>
-            <li><a href="Aboutus.html"> About Us </a></li>
-            <li><a href="Contact.html"> Contact </a></li>
+            <li><a href="Home.php"> Home </a></li>
+            <li><a href="Login.php">Log In</a></li>
+            <li><a href="Aboutus.php"> About Us </a></li>
+            <li><a href="Contact.php"> Contact </a></li>
         </ul>
     </nav>
 </head>

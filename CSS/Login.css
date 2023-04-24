@@ -22,6 +22,14 @@ nav{
     border-radius: 5px;
 }
 /*Log in Page*/
+div#errormessage{
+    background:#fff;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 11px
+}
+
 body#Login {
     background: url(../Images/joey-banks-YApiWyp0lqo-unsplash.jpg)  no-repeat fixed;
     background-position: center;

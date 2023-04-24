@@ -1,9 +1,18 @@
 <?php
+    $error_message = '';
+    
     if ($_POST){
+        include 'PHP/Connection.php';
+
         $username =$_POST['username'];
         $password = $_POST['password'];
 
-        include('PHP/Connection.php');
+        $query= 'SELECT * FROM users WHERE users.email=" '.$username. '" AND users.password= "'. $password . '"' ;
+        $stmt = $conn->prepare($query);
+        $stmt->execute();
+        
+        var_dump($stmt->rowCount());
+        die;
     }
 ?>
 <!DOCTYPE html>
@@ -14,6 +23,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
     <link rel="stylesheet" href="CSS/Login.css">
+
+</head>
+<body id="Login">
+    
+    <?php
+    if(!empty($error_message)) { ?>
+    <div id = "errormessage">
+        <p>ERROR: <? $error_message ?> </p>
+    </div>
+    <?php } ?>
+
     <nav>
         <ul>
             <li><a href="Home.php"> Home </a></li>
@@ -22,15 +42,13 @@
             <li><a href="Contact.php"> Contact </a></li>
         </ul>
     </nav>
-</head>
-<body id="Login">
     <div class="container">
         <div class="LogInHeader">
             <h1>tbd</h1>
             <p>Vehicle inventory system</p>
         </div>
         <div class="LogInBody">
-           <form action="Login.php" method="POST">
+            <form action="Login.php" method="POST">
             <div class="LogInInputContainer">
                 <label for="U">Username</label>
                 <input placeholder="Username" name="username" type="text"/>
@@ -42,13 +60,8 @@
             <div class="LogInButtonContainer">
                 <button>Login</button>
             </div>
-           </form> 
+            </form> 
         </div>
     </div>
-    <script>
-        function onlclickfnc(){
-            document.location.href="Dasboard.html";
-        }
-    </script>
 </body>
 </html>

@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    $user = ($_SESSION['user'])
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +18,8 @@
         <div class="dashboard_sidebar" id="dashboard_sidebar">
             <h3 class="dashboard_logo" id="dashboard_logo">TBD</h3>
             <div class="dashboard_sidebar_user">
-                <img src="../Images/User/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="User Image" id="UserImage">
-                <span>Cisneros</span>
+                <img src="./Images/User/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="User Image" id="UserImage">
+                <span>Jane Doe </span>
             </div>
             <div class="dashboard_sidebar_menus">
                 <ul class="dashboard_lists">

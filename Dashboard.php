@@ -16,7 +16,7 @@
 <body id="Dashboard">
     <div id="Dashboard_Main_Container">
         <div class="dashboard_sidebar" id="dashboard_sidebar">
-            <h3 class="dashboard_logo" id="dashboard_logo">TBD</h3>
+            <h3 class="dashboard_logo" id="dashboard_logo">Tracarz</h3>
             <div class="dashboard_sidebar_user">
                 <img src="./Images/User/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="User Image" id="UserImage">
                 <span>Jane Doe </span>

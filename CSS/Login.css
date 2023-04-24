@@ -46,7 +46,7 @@ div.LogInHeader{
 div.LogInHeader h1{
     font-size: 55px;
     font-weight: bold;
-    color: black;
+    color: #181A1B;
     padding: 0px;
     margin: 0px;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ div.LogInHeader p::after{
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: #181A1B;
     margin: 0 auto;
 }
 
@@ -110,7 +110,7 @@ div.LogInButtonContainer{
 div.LogInButtonContainer button{
     font-size: 30px;
     padding: 10px 40px;
-    background: gray;
+    background: #AC0900;
     border: none;
     color:white
 }
@@ -140,13 +140,13 @@ div.homepagecontainer{
 
 div.bannerheader h1{
     font-size: 100px;
-    color: black;
+    color: #181A1B;
     line-height: 100%;
 }
 
 div.bannerheader p{
     font-size: 30px;
-    color: black;
+    color: #181A1B;
     text-transform: uppercase;
     margin-top: -10px;
     line-height: 100%;
@@ -174,8 +174,8 @@ div.homepagefeature span.featureIcon{
     width: 80px;
     display: inline-block;
     font-size: 50px;
-    background: gray;
-    color: black;
+    background: #AC0900;
+    color: #181A1B;
     padding-top: 25px;
     border-radius: 50%;
     margin-bottom: 25px;
@@ -186,7 +186,7 @@ div.homepagefeature h3.featureicon{
 }
 
 div.homepagefeature p.featuredescription{
-    color: gray;
+    color: #AC0900;
 
 }
 /*Dashboard*/
@@ -201,7 +201,7 @@ body#Dashboard{
 
 div.dashboard_sidebar{
     width: 20%;
-    background: black;
+    background: #181A1B;
     height: 100vh;
 }
 
@@ -211,7 +211,7 @@ div.dashboard_content_container{
 }
 
 h3.dashboard_logo{
-    color: gray;
+    color: #AC0900;
     font-size: 80px;
     text-align: center;
 }
@@ -227,7 +227,7 @@ div.dashboard_sidebar_user img{
     width: 80px;
     display: inline-block;
     border-radius: 50%;
-    border: 2px solid gray;
+    border: 2px solid #AC0900;
     margin-right: 5px;
     vertical-align: middle;
 }
@@ -261,23 +261,23 @@ ul.dashboard_lists li a i{
 }
 
 ul.dashboard_lists li.menuactive{
-    background-color: gray;
+    background-color: #AC0900;
     color: white
 }
 
 ul.dashboard_lists li:hover{
-    background: gray;
+    background: #AC0900;
     color: white;
     transition: 0.3 all;
 }
 
 div.dashboard-content_topnav{
-    background: gray;
+    background: #AC0900;
     padding: 20px;
 }
 
 div.dashboard-content_topnav a{
-    color: black;;
+    color: #181A1B;
     font-size: 18px;
     text-decoration: underline;
 }
@@ -291,7 +291,7 @@ div.dashboard_content{
 }
 
 div.dashboard_content_main{
-    background:silver;
+    background: #181A1B;
     min-height: 800px;
     height: 100%;
 }

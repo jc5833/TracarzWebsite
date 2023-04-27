@@ -35,7 +35,7 @@
         <div class="dashboard_content_container" id="dashboard_content_container">
             <div class="dashboard-content_topnav">
                 <a href="" id="dashboard_toggleButton"><i class="fa-solid fa-bars"></i> </a>
-                <a href="" id="LogOutButton"><i class="fa-solid fa-power-off"></i>    Log Out</a>
+                <a href="Login.php" id="LogOutButton"><i class="fa-solid fa-power-off"></i>    Log Out</a>
             </div>
             <div class="dashboard_content">
                 <div class="dashboard_content_main">

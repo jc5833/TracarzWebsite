@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $user = ($_SESSION['user'])
+    $user = $_SESSION['user'];
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@
             <h3 class="dashboard_logo" id="dashboard_logo">Tracarz</h3>
             <div class="dashboard_sidebar_user">
                 <img src="./Images/User/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="User Image" id="UserImage">
-                <span>Jane Doe </span>
+                <span><?= $user['first_name'] . '  ' . $user['last_name'] ?></span>
             </div>
             <div class="dashboard_sidebar_menus">
                 <ul class="dashboard_lists">
@@ -40,7 +40,7 @@
             <div class="dashboard_content">
                 <div class="dashboard_content_main">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus ea laborum magnam placeat quasi,
-                     mollitia doloremque odio rem nulla, sequi, repudiandae illum et. Porro iure voluptate maiores quae cupiditate nesciunt.</p>
+                    mollitia doloremque odio rem nulla, sequi, repudiandae illum et. Porro iure voluptate maiores quae cupiditate nesciunt.</p>
                 </div>
             </div>
         </div>

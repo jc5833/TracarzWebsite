@@ -4,18 +4,15 @@
     $error_message = '';
     
     if ($_POST){
-        include 'PHP/Connection.php';
+        include ('PHP/Connection.php');
 
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        $query = 'SELECT * FROM users WHERE email = :email AND password = :password LIMIT 1';
-        $stmt = $conn->prepare($query);
-        $stmt->bindParam(':email', $username);
-        $stmt->bindParam(':password', $password);
-        $stmt->execute();
+        $query  = 'SELECT * FROM users WHERE users.email="'. $username . '" AND users.password="'. $password . '"';
 
-        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $stmt = $conn->prepare($query);
+        $stmt->execute();
 
 
         if ($stmt->rowCount()>0){
@@ -24,7 +21,7 @@
             $_SESSION['user'] = $user;
 
             header('Location: Dashboard.php');
-        }else{ $error_message = 'Please make sure that username and password are correct';}
+        }else $error_message = 'Please make sure that username and password are correct';
     }
 ?>
 
@@ -43,7 +40,7 @@
     <?php
     if(!empty($error_message)) { ?>
     <div id = "errormessage">
-       <strong>ERROR:</strong> <p><?= $error_message ?> </p>
+    <strong>ERROR:</strong> <p><?= $error_message ?> </p>
     </div>
     <?php } ?>
 

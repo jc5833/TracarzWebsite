@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>  
-    <link rel="stylesheet" href="css/Login.css">  
+    <link rel="stylesheet" href="Css/Login.css">  
     <script src="https://kit.fontawesome.com/805c332ffe.js" crossorigin="anonymous"></script>
     <nav>
         <ul>
@@ -22,7 +22,7 @@
         <div class="homepagecontainer">
             
         <div class="bannerheader">
-            <h1>TBD</h1>
+            <h1>Tracarz</h1>
             <P>Vehicle inventory system</P>
         </div>
         <P class="bannertagline">Keep track of all the vehicles your dealership has, 

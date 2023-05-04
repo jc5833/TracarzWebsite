@@ -3,10 +3,10 @@ nav ul {list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;}
+    background-color: #AC0900;}
 
 nav ul li  a {display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;}
@@ -54,7 +54,7 @@ div.LogInHeader h1{
 
 div.LogInHeader p{
     font-size: 32px;
-    color: rgba(0, 0, 0);
+    color: rgb(0, 0, 0);
     margin: 0px;
     text-transform: uppercase;
     display: inline-block;

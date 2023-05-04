@@ -54,7 +54,7 @@
     </nav>
     <div class="container">
         <div class="LogInHeader">
-            <h1>tbd</h1>
+            <h1>Tracarz</h1>
             <p>Vehicle inventory system</p>
         </div>
         <div class="LogInBody">

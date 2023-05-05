@@ -117,7 +117,7 @@ div.LogInButtonContainer button{
 /*Homepage*/
 body#Home{
     font-family: helvetica;
-    background-color: white;
+    background-color: #181A1B;
 }
 div.header{
     width: 100%;

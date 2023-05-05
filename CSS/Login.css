@@ -4,7 +4,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color:#AC0900;
     text-align: center;
 }
 
@@ -316,10 +316,31 @@ div.dashboard_content_main{
 }
 
 /*About Us*/
-body#Aboutus{
+body#AboutUs{
+    height: fit-content;
+    font-family: helvetica;
     background-color: #181A1B;
 }
 
-p.AboutusInfo{
-    font-size: 100px;
+p.Info{
+    padding-top: 15px;
+    color: #fffefe;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+
+.Logo{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p.Description{
+    padding-top: 25px;
+    color: #fffefe;
+    justify-content: center;
+    text-align: center;
 }

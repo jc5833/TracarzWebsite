@@ -14,7 +14,6 @@
             <li><a href="Home.php"> Home </a></li>
             <li><a href="Login.php">Log In</a></li>
             <li><a href="Aboutus.php"> About Us </a></li>
-            <li><a href="Contact.php"> Contact </a></li>
         </ul>
     </nav>
     <div class="header">  </div>

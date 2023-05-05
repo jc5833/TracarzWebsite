@@ -116,6 +116,7 @@ div.LogInButtonContainer button{
 }
 /*Homepage*/
 body#Home{
+    height: fit-content;
     font-family: helvetica;
     background-color: #181A1B;
 }
@@ -140,13 +141,13 @@ div.homepagecontainer{
 
 div.bannerheader h1{
     font-size: 100px;
-    color: #181A1B;
+    color: white;
     line-height: 100%;
 }
 
 div.bannerheader p{
     font-size: 30px;
-    color: #181A1B;
+    color: white;
     text-transform: uppercase;
     margin-top: -10px;
     line-height: 100%;
@@ -159,9 +160,10 @@ p.bannertagline{
 }
 
 div.homepagefeatures{
-    padding-top: 15px;
-    display: flex;
+    padding-top: 35px;
+    display: inline-flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 div.homepagefeature{
@@ -174,8 +176,8 @@ div.homepagefeature span.featureIcon{
     width: 80px;
     display: inline-block;
     font-size: 50px;
-    background: #AC0900;
-    color: #181A1B;
+    background:#181A1B;
+    color: #AC0900;
     padding-top: 25px;
     border-radius: 50%;
     margin-bottom: 25px;
@@ -188,6 +190,14 @@ div.homepagefeature h3.featureicon{
 div.homepagefeature p.featuredescription{
     color: #AC0900;
 
+}
+
+div.homepagefeature h3.featuredescription{
+    color: #AC0900;
+}
+
+div.homepagefeature p.description{
+    color: white;
 }
 /*Dashboard*/
 body#Dashboard{

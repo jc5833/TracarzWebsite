@@ -1,9 +1,12 @@
 /* Navigation bar*/
-nav ul {list-style-type: none;
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #AC0900;}
+    background-color: white;
+    text-align: center;
+}
 
 nav ul li  a {display: block;
     color: black;
@@ -19,7 +22,7 @@ nav ul li {
 
 nav{
     border: 2px solid #000000;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 /*Log in Page*/
 div#errormessage{
@@ -310,4 +313,13 @@ div.dashboard_content_main{
     font-size: 25px;
     text-align: center;
     line-height: 1000%;
+}
+
+/*About Us*/
+body#Aboutus{
+    background-color: #181A1B;
+}
+
+p.AboutusInfo{
+    font-size: 100px;
 }

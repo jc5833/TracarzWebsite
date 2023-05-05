@@ -7,7 +7,9 @@
     <title>Home</title>  
     <link rel="stylesheet" href="CSS/Login.css">  
     <script src="https://kit.fontawesome.com/805c332ffe.js" crossorigin="anonymous"></script>
-    <nav>
+</head>
+<body id="Home">
+<nav>
         <ul>
             <li><a href="Home.php"> Home </a></li>
             <li><a href="Login.php">Log In</a></li>
@@ -15,8 +17,6 @@
             <li><a href="Contact.php"> Contact </a></li>
         </ul>
     </nav>
-</head>
-<body id="Home">
     <div class="header">  </div>
     <div class="banner"> 
         <div class="homepagecontainer">

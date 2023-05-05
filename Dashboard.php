@@ -24,10 +24,10 @@
             <div class="dashboard_sidebar_menus">
                 <ul class="dashboard_lists">
                     <li class="menuactive">
-                        <a href=""><i class="fa-solid fa-table-columns Menuicons"></i><span class="MenuText">Dashboard</span></a>
+                        <a href=""><i class="fa-solid fa-table-columns Menuicons"></i><span class="MenuText">  Dashboard</span></a>
                     </li>
                     <li>
-                        <a href=""><i class="fa-solid fa-table-columns Menuicons"></i><span class="MenuText">Dashboard</span></a>
+                        <a href=""><i class="fa-solid fa-table-columns Menuicons"></i><span class="MenuText">  Users</span></a>
                     </li>
                 </ul>
             </div>
@@ -39,8 +39,28 @@
             </div>
             <div class="dashboard_content">
                 <div class="dashboard_content_main">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus ea laborum magnam placeat quasi,
-                    mollitia doloremque odio rem nulla, sequi, repudiandae illum et. Porro iure voluptate maiores quae cupiditate nesciunt.</p>
+                    <div class="box-container">
+                    <div class="box">
+                        <p class="Make"> Ford</p>
+                        <br>
+                        <p class="Model"> Mustang</p>
+                    </div>
+                    <div class="box">
+                        Box 2
+                    </div>
+                    <div class="box">
+                        Box 3
+                    </div>
+                    <div class="box">
+                        Box 4
+                    </div>
+                    <div class="box">
+                        Box 5
+                    </div>
+                    <div class="box">
+                        Box 6
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>

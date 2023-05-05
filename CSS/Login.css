@@ -202,6 +202,34 @@ div.homepagefeature h3.featuredescription{
 div.homepagefeature p.description{
     color: white;
 }
+.box-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    outline: blue dashed 1px;
+}
+
+.box {
+    width: 30%;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: red dashed 1px;
+}
+
+p.Make{
+
+}
+
+p.Model{
+    
+}
 /*Dashboard*/
 body#Dashboard{
     margin: 0;
@@ -271,6 +299,7 @@ ul.dashboard_lists li a{
 }
 ul.dashboard_lists li a i{
     font-size: 25px;
+    padding-left: 10px;
 }
 
 ul.dashboard_lists li.menuactive{
@@ -313,6 +342,7 @@ div.dashboard_content_main{
     font-size: 25px;
     text-align: center;
     line-height: 1000%;
+    color: #fff;
 }
 
 /*About Us*/

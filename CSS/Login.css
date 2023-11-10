@@ -4,12 +4,11 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#AC0900;
     text-align: center;
 }
 
-nav ul li  a {display: block;
-    color: black;
+nav#main ul li  a {display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;}
@@ -20,10 +19,22 @@ nav ul li {
     
 }
 
-nav{
-    border: 2px solid #000000;
+nav#main{
+    border: 2px solid white;
     border-radius: 15px;
 }
+
+nav#secondary{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+nav#secondary ul li  a {display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
 /*Log in Page*/
 div#errormessage{
     background:#fff;
@@ -53,6 +64,7 @@ div.LogInHeader h1{
     padding: 0px;
     margin: 0px;
     text-transform: uppercase;
+    
 }
 
 div.LogInHeader p{
@@ -113,9 +125,11 @@ div.LogInButtonContainer{
 div.LogInButtonContainer button{
     font-size: 30px;
     padding: 10px 40px;
-    background: #AC0900;
+    background: white;
     border: none;
-    color:white
+    color:black;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 /*Homepage*/
 body#Home{
@@ -180,7 +194,7 @@ div.homepagefeature span.featureIcon{
     display: inline-block;
     font-size: 50px;
     background:#181A1B;
-    color: #AC0900;
+    color: white;
     padding-top: 25px;
     border-radius: 50%;
     margin-bottom: 25px;
@@ -191,12 +205,12 @@ div.homepagefeature h3.featureicon{
 }
 
 div.homepagefeature p.featuredescription{
-    color: #AC0900;
+    color: white;
 
 }
 
 div.homepagefeature h3.featuredescription{
-    color: #AC0900;
+    color: white;
 }
 
 div.homepagefeature p.description{

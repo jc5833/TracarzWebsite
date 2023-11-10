@@ -16,11 +16,11 @@
 </head>
 <body id="AboutUs">
     <div class="AboutUsContainer">
-        <img src="Images\TracarzLogo1.png" alt="Logo" class="Logo" >
         <p class="Info">
             We are two students who had to come up with a project for their capstone project and did not know what to do.
             Eventually we figured that we could take our interest for cars and helping others and merge them for our project.
         </p>
+        <img src="Images\TracarzLogo1.png" alt="Logo" class="Logo" >
         <p class="Description">
         For a business to be successful, there needs to be a strong management standing behind
 it. As technology is advancing, the tools made available to businesses have only increased with

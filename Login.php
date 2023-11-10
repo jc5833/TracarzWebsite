@@ -44,7 +44,7 @@
     </div>
     <?php } ?>
 
-    <nav>
+    <nav id="secondary">
         <ul>
             <li><a href="Home.php"> Home </a></li>
             <li><a href="Login.php">Log In</a></li>

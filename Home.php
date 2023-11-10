@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/805c332ffe.js" crossorigin="anonymous"></script>
 </head>
 <body id="Home">
-<nav>
+<nav id="main">
         <ul>
             <li><a href="Home.php"> Home </a></li>
             <li><a href="Login.php">Log In</a></li>

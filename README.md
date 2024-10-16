@@ -52,7 +52,7 @@ Before starting, ensure the following software is installed on your machine:
 5. **Access the Website:**  
    Open your browser and visit:  
    ```
-   http://localhost/tracarz-website/
+   http://localhost/tracarzwebsite/
    ```
 
 ---

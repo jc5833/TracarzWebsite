@@ -105,5 +105,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 Thank you for exploring the **Tracarz website**! If you have any questions or issues, feel free to reach out. Enjoy the project!
 
 ---
-
-This version ensures readability and professionalism while keeping all relevant details intact.

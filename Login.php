@@ -91,12 +91,12 @@ if ($_POST) {
                     <label for="">Password</label>
                     <input placeholder="Password" name="password" type="password" required/>
                 </div>
-                <div class="LogInButtonContainer">
+                <div class="LogInButtonContainer" style="display: flex; gap: 10px;">
                     <button name="login">Login</button>
+                    <button id="toggle-register" onclick="toggleRegister()">Register</button>
                 </div>
             </form> 
 
-            <h2>Don't have an account? Register here:</h2>
 
             <!-- Hidden register form -->
             <form action="Login.php" method="POST" id="register-form" style="display: none;">
@@ -125,8 +125,6 @@ if ($_POST) {
                 </div>
             </form>
 
-            <!-- Button to toggle between forms -->
-            <button id="toggle-register" onclick="toggleRegister()">Register</button>
         </div>
     </div>
 

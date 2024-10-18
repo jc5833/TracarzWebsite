@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aboutus</title>
     <link rel="stylesheet" href="CSS/Login.css"> 
-    <nav>
+    <nav id="main">
         <ul>
         <li><a href="Home.php"> Home </a></li>
         <li><a href="Login.php">Log In</a></li>
@@ -34,7 +34,6 @@ edit expenses, and view reports on whatever vehicle they desire. We were thinkin
 from only being lists of vehicles we want to work on a way to have the vehicles be shown by
 images of such a car, this will not only make the user interface more friendly but it will be a
 more interactive way of getting to the desired vehicle.
-
         </p>
     </div>
 </body>

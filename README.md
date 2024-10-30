@@ -1,4 +1,3 @@
-Here’s a refined and properly formatted version of your `README.md`:
 
 ---
 
